@@ -1,0 +1,164 @@
+/* Main navbar */
+
+* {
+    margin:0;
+    font-family: Arial; 
+   
+   
+}
+   
+  #main-nav {
+    height:75px;
+    width:100%;
+    background-color: plum;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav {
+    position: absolute;
+    left:20px;    
+}
+
+.nav h3 {
+    font-size: 20px;
+    color:white;
+    
+}
+.nav p {
+     font-size: 15px;
+     color:white;
+}
+
+.option-icons {
+   position: absolute;
+  right:220px;
+  color:white;
+ 
+}
+
+.option-icons .about {
+    margin-right: 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.option-icons .pages {
+    color:white;
+    text-decoration: none;
+}
+
+.option-iconsnav-bar {
+    position: absolute;
+    right:30px;
+}
+
+.option-iconsnav-bar button  {
+    position: relative;
+    right:30px;
+    font-weight: 500;
+    padding: 10px;
+    width:100px;   
+    border-radius: 40%;   
+    color:black;
+    
+   
+}
+
+.option-iconsnav-bar i {
+     font-size: 25px;
+     font-weight: 700;
+     color:white;
+    
+}
+
+/* side-bar */
+
+.side-bar {
+   
+    position:relative;
+    top:160px;
+    
+}
+
+.side-bar li {  
+    padding:9px 10px;
+    position:relative;
+    right:10px;    
+    top:20px;
+    list-style-type: none;
+}
+
+.side-bar i,a {
+    color:plum;
+    text-decoration: none;    
+}
+
+.side-bar i {
+    margin-right: 8px;  
+  }
+
+/* card-container */
+
+
+
+.card-container {
+    display: flex;  
+    justify-content:center;
+    align-items: center;    
+   
+    
+   
+}
+.card {
+    height:300px;
+    width:200px;
+    text-align: center;   
+    margin-right: 70px;  
+    border:2px solid white;
+    
+    
+   
+      
+}
+
+.img { 
+   height:200px;
+   width:200px;
+   border-radius: 50%;
+   margin-top: 20px;
+}
+
+.content h3 {
+    font-size: 20px;
+    color:plum;
+}
+
+.content p {
+    font-size: 16px;
+    color:plum;
+
+}
+
+.icons {
+    color:plum;
+
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.footer-icons {
+    color:plum;
+    position:absolute;
+    bottom:20px;
+    right:100px;
+}
+
+ 
